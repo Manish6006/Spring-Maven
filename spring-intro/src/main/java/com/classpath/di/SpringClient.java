@@ -13,9 +13,9 @@ public class SpringClient {
 			//College college=(College)context.getBean("college");
 			Student student=(Student) context.getBean("student",Student.class);
 			//NewCollege newcoll=(NewCollege)context.getBean("NewCollege");
-			
-			student.applyLeave(12);
-			
+			//Address add=(Address) context.getBean("address", Address.class);
+			//student.applyLeave(12);
+			System.out.println(student.getAddress());
 			
 			
 			
